@@ -25,7 +25,7 @@ Library was created so that everything is using public interfaces, so you can im
 CLI app is used to test the library. You can check the more examples there. (code may be a little messy though)
 
 ## Basic graph operations
-```
+```csharp
 // Creating Graph
 var graph = new AdjacencyListGraph<string, double>();
 
@@ -46,7 +46,7 @@ graph.RemoveVertex(0);
 ```
 
 ## Using built-in graph generation from height map
-```
+```csharp
 // Creating terrain data
 var terrainData = new TerrainData<Point3D>();
 var size = 1000;

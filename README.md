@@ -93,7 +93,7 @@ var graph = generator.GenerateGraph<
 
 
 ## Pathfinding algorithms
-```
+```csharp
 // Djikstra
 // Paths from source are stored in computed paths object
 var computedPaths = Pathfinder.BinaryHeapDijkstra(graph, 0);
